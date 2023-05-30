@@ -538,8 +538,8 @@ def generate_benchmarks(benchmark_step_size: float,
 def compare_models(first_model: dict,
                    second_model: dict,
                    interpolation_epochs: np.ndarray,
-                   output_path: str,
-                   filename: str) -> dict:
+                   output_path: str = None,
+                   filename: str = None) -> dict:
     """
     It compares the results of two runs with different model settings.
     It uses an 8th-order Lagrange interpolator to compare the state (or the dependent variable, depending on what is
