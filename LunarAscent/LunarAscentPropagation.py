@@ -213,7 +213,7 @@ decision_variable_range = \
      [20.0E3, 100.0, 0.1, 0.5 ,0.7, 1.0, 1.3]]
 
 # NOTE TO STUDENTS: HERE YOU INPUT WHAT DESIGN SPACE EXPLORATION METHOD YOU USE
-design_space_method = 'factorial_design'
+design_space_method = 'monte_carlo'
 
 number_of_parameters = len(decision_variable_range[0])
 
